@@ -1,0 +1,20 @@
+nav ul{
+    height: 10rem;
+    background-color: gray;
+    margin-top: 0;
+    list-style-type: none;/*this list style is none */
+}
+
+.headerElement{
+    text-decoration: none;
+    padding-top: 10px;
+    text-align: center;
+}
+.headerText{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 2px 10px 2px 10px;
+}
