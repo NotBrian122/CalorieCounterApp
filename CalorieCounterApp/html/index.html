@@ -7,15 +7,80 @@
     <title>Calorie Counter Website</title>
 </head>
 <body>
-    <nav>
-        <ul class="headerElement">
-            <li>
-                <H1 class="headerText">Calorie counting App</H1>
-            </li>
-        </ul>
-    </nav>
+<nav>
+    <ul class="mainNav">
+        <li>
+            <a href="/html/index.html">Repie finder</a>
+        </li>
+    </ul>
+</nav>
+<h2 style="margin-left: 15%;">To find recepies then input, to your liking then click 'Enter'</h2>
+    <!--Main fourm div where the user enters all of their information-->
+    <div id="userInputSection">
+        <p id="headdingInputText">What food Item do you want to find?</p><input type="text" id="userInput" placeholder="Serch dishes here">
 
-    <button type="submit">Enter text here </button>
-    <scriptm src="/javaScript/Script.js"> </script>
+
+    <div id="restrivtiveDietsCheckBoxes">
+            <!--Restrictive diets-->
+        <p>Do you have a restrivtive diet, if so select one</p>
+        <label for="vegan">Vegan</label>
+        <input type="checkbox" name="vegan" id="vegan">
+
+        <label for="vegitarian">Vegetarian</label>
+        <input type="checkbox" name="vegitarian" id="vegitarian">
+
+        <label for="pescetarian">Pescetarian</label>
+        <input type="checkbox" name="pescetarian" id="pescetarian">
+
+        <label for="paleo">Paleo</label>
+        <input type="checkbox" name="paleo" id="paleo">
+    </div>
+
+    <div id="AllergensCheckboxes">
+<!--allergens included-->
+        <p>Allergens</p>
+        <label for="dairy">Dairy</label>
+        <input type="checkbox" name="dairy" id="dairy">
+
+        <label for="egg">Egg</label>
+        <input type="checkbox" name="egg" id="egg">
+
+        <label for="gluten">Gluten</label>
+        <input type="checkbox" name="gluten" id="gluten">
+
+        <label for="peanut">Peanut</label>
+        <input type="checkbox" name="peanut" id="peanut">
+
+        <label for="sesame">sesame</label>
+        <input type="checkbox" name="sesame" id="sesame">
+        <br>
+        <label for="soy">Soy</label>
+        <input type="checkbox" name="soy" id="soy">
+
+        <label for="seafood">Seafood</label>
+        <input type="checkbox" name="seafood" id="seafood">
+
+        <label for="shellfish">Shellfish</label>
+        <input type="checkbox" name="shellfish" id="shellfish">
+
+        <label for="sulfite">Sulfite</label>
+        <input type="checkbox" name="sulfite" id="sulfite">
+
+        <Label for="tree nut">Tree nut</Label>
+        <input type="checkbox" name="tree nut" id="tree nut">
+
+        <Label for="wheat">Wheat</Label>
+        <input type="checkbox" name="wheat" id="wheat">
+    </div>
+
+<br><br> 
+        <button id="EnterButton">Enter</button><!--starts the function-->
+    </div>
+
+    </div>
+   <div id="displayCards">
+    This will display found recepies
+   </div>
 </body>
+<script src="/javaScript/Script.js"></script>
 </html>
