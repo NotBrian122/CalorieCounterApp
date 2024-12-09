@@ -1,20 +1,37 @@
+.mainNav{
+    text-align: center;
+    padding-top: 20px;
+}
+.mainNav :hover{
+    color: gray;
+    transition: .5s;
+}
 nav ul{
     height: 10rem;
-    background-color: gray;
-    margin-top: 0;
+    background-color: rgb(94, 172, 74);
     list-style-type: none;/*this list style is none */
 }
-
-.headerElement{
+ul li a{
+    margin-top: 20px;
     text-decoration: none;
-    padding-top: 10px;
-    text-align: center;
+    text-transform: 20px;
+    color: white;
+    font-size: 40px;
+
 }
-.headerText{
-    margin-left: 10px;
-    margin-right: 10px;
+.mainBody{
+  
+    height: 200px;
+    margin-left: 25%;
+    margin-right: 20%;
+    background-color: rgb(226, 225, 225);
+    border-radius: 20px;
+}
+#display{
+    margin-top: 20px;
+    height:400px;
+    margin-left: 20%;
+    margin-right: 15%;
     background-color: aqua;
-    border-radius: 10px;
-    text-transform: capitalize;
-    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
 }
